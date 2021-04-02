@@ -1,0 +1,6 @@
+framework module Pods_SwiftUIImageCreator_SwiftUIImageCreatorUITests {
+  umbrella header "Pods-SwiftUIImageCreator-SwiftUIImageCreatorUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

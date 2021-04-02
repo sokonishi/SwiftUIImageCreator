@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		026EBAE01338178DD72EE35A /* Pods_SwiftUIImageCreator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9F463CC3D4246431A003D64 /* Pods_SwiftUIImageCreator.framework */; };
+		883E5FE026128C41003ADA0B /* PopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883E5FDF26128C41003ADA0B /* PopoverViewController.swift */; };
+		88856D45260C226000204FD9 /* ReportTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88856D44260C226000204FD9 /* ReportTableViewCell.swift */; };
 		88E5588A26017A0100CD47D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E5588926017A0100CD47D9 /* AppDelegate.swift */; };
 		88E5588C26017A0100CD47D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E5588B26017A0100CD47D9 /* SceneDelegate.swift */; };
 		88E5588E26017A0100CD47D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E5588D26017A0100CD47D9 /* ViewController.swift */; };
@@ -15,6 +18,12 @@
 		88E5589626017A0500CD47D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88E5589426017A0500CD47D9 /* LaunchScreen.storyboard */; };
 		88E558A126017A0600CD47D9 /* SwiftUIImageCreatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E558A026017A0600CD47D9 /* SwiftUIImageCreatorTests.swift */; };
 		88E558AC26017A0600CD47D9 /* SwiftUIImageCreatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E558AB26017A0600CD47D9 /* SwiftUIImageCreatorUITests.swift */; };
+		88E558CD26041A9300CD47D9 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E558CC26041A9300CD47D9 /* Database.swift */; };
+		88E558D526041D1200CD47D9 /* DailymemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E558D426041D1200CD47D9 /* DailymemoViewController.swift */; };
+		88E558DD26041D3E00CD47D9 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E558DC26041D3E00CD47D9 /* CollectionViewController.swift */; };
+		88E558E226041D8000CD47D9 /* ReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E558E126041D8000CD47D9 /* ReportViewController.swift */; };
+		C421FF82EF98922174E5E7D1 /* Pods_SwiftUIImageCreator_SwiftUIImageCreatorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F89A005F2B1660DB506E50CE /* Pods_SwiftUIImageCreator_SwiftUIImageCreatorUITests.framework */; };
+		D323AC451BD15FF96B4E57E5 /* Pods_SwiftUIImageCreatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4B1A8B02045FEC0DD25569E /* Pods_SwiftUIImageCreatorTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D4AAE09E1F535A281B881D0 /* Pods-SwiftUIImageCreatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIImageCreatorTests.release.xcconfig"; path = "Target Support Files/Pods-SwiftUIImageCreatorTests/Pods-SwiftUIImageCreatorTests.release.xcconfig"; sourceTree = "<group>"; };
+		23FF7F7F2350CF0C16A32136 /* Pods-SwiftUIImageCreator-SwiftUIImageCreatorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIImageCreator-SwiftUIImageCreatorUITests.release.xcconfig"; path = "Target Support Files/Pods-SwiftUIImageCreator-SwiftUIImageCreatorUITests/Pods-SwiftUIImageCreator-SwiftUIImageCreatorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		301FE5B6D06A983BBE5B4DD9 /* Pods-SwiftUIImageCreator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIImageCreator.release.xcconfig"; path = "Target Support Files/Pods-SwiftUIImageCreator/Pods-SwiftUIImageCreator.release.xcconfig"; sourceTree = "<group>"; };
+		883E5FDF26128C41003ADA0B /* PopoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverViewController.swift; sourceTree = "<group>"; };
+		88856D44260C226000204FD9 /* ReportTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportTableViewCell.swift; sourceTree = "<group>"; };
 		88E5588626017A0100CD47D9 /* SwiftUIImageCreator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIImageCreator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88E5588926017A0100CD47D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88E5588B26017A0100CD47D9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +63,16 @@
 		88E558A726017A0600CD47D9 /* SwiftUIImageCreatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIImageCreatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88E558AB26017A0600CD47D9 /* SwiftUIImageCreatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIImageCreatorUITests.swift; sourceTree = "<group>"; };
 		88E558AD26017A0600CD47D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88E558CC26041A9300CD47D9 /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		88E558D426041D1200CD47D9 /* DailymemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailymemoViewController.swift; sourceTree = "<group>"; };
+		88E558DC26041D3E00CD47D9 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		88E558E126041D8000CD47D9 /* ReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportViewController.swift; sourceTree = "<group>"; };
+		A3E85B32B4D17F2BEEE55E48 /* Pods-SwiftUIImageCreator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIImageCreator.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUIImageCreator/Pods-SwiftUIImageCreator.debug.xcconfig"; sourceTree = "<group>"; };
+		D9F463CC3D4246431A003D64 /* Pods_SwiftUIImageCreator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUIImageCreator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD4F3FCF413B6D3A635EFD8B /* Pods-SwiftUIImageCreatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIImageCreatorTests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUIImageCreatorTests/Pods-SwiftUIImageCreatorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E490CEBEC0F4E8E002F99C29 /* Pods-SwiftUIImageCreator-SwiftUIImageCreatorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIImageCreator-SwiftUIImageCreatorUITests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUIImageCreator-SwiftUIImageCreatorUITests/Pods-SwiftUIImageCreator-SwiftUIImageCreatorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F4B1A8B02045FEC0DD25569E /* Pods_SwiftUIImageCreatorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUIImageCreatorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F89A005F2B1660DB506E50CE /* Pods_SwiftUIImageCreator_SwiftUIImageCreatorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUIImageCreator_SwiftUIImageCreatorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				026EBAE01338178DD72EE35A /* Pods_SwiftUIImageCreator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D323AC451BD15FF96B4E57E5 /* Pods_SwiftUIImageCreatorTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +96,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C421FF82EF98922174E5E7D1 /* Pods_SwiftUIImageCreator_SwiftUIImageCreatorUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		159FDD72C9F20DA1F155B10F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A3E85B32B4D17F2BEEE55E48 /* Pods-SwiftUIImageCreator.debug.xcconfig */,
+				301FE5B6D06A983BBE5B4DD9 /* Pods-SwiftUIImageCreator.release.xcconfig */,
+				E490CEBEC0F4E8E002F99C29 /* Pods-SwiftUIImageCreator-SwiftUIImageCreatorUITests.debug.xcconfig */,
+				23FF7F7F2350CF0C16A32136 /* Pods-SwiftUIImageCreator-SwiftUIImageCreatorUITests.release.xcconfig */,
+				DD4F3FCF413B6D3A635EFD8B /* Pods-SwiftUIImageCreatorTests.debug.xcconfig */,
+				0D4AAE09E1F535A281B881D0 /* Pods-SwiftUIImageCreatorTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		88E5587D26017A0100CD47D9 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +123,8 @@
 				88E5589F26017A0600CD47D9 /* SwiftUIImageCreatorTests */,
 				88E558AA26017A0600CD47D9 /* SwiftUIImageCreatorUITests */,
 				88E5588726017A0100CD47D9 /* Products */,
+				159FDD72C9F20DA1F155B10F /* Pods */,
+				A36E040B578731822FD68866 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +141,9 @@
 		88E5588826017A0100CD47D9 /* SwiftUIImageCreator */ = {
 			isa = PBXGroup;
 			children = (
-				88E5588926017A0100CD47D9 /* AppDelegate.swift */,
-				88E5588B26017A0100CD47D9 /* SceneDelegate.swift */,
-				88E5588D26017A0100CD47D9 /* ViewController.swift */,
-				88E5588F26017A0100CD47D9 /* Main.storyboard */,
-				88E5589226017A0500CD47D9 /* Assets.xcassets */,
-				88E5589426017A0500CD47D9 /* LaunchScreen.storyboard */,
+				88E558CB26041A3400CD47D9 /* Controller */,
+				88E558C926041A1100CD47D9 /* Model */,
+				88E558C826041A0900CD47D9 /* View */,
 				88E5589726017A0500CD47D9 /* Info.plist */,
 			);
 			path = SwiftUIImageCreator;
@@ -128,6 +167,49 @@
 			path = SwiftUIImageCreatorUITests;
 			sourceTree = "<group>";
 		};
+		88E558C826041A0900CD47D9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				88E5588F26017A0100CD47D9 /* Main.storyboard */,
+				88E5589426017A0500CD47D9 /* LaunchScreen.storyboard */,
+				88E5589226017A0500CD47D9 /* Assets.xcassets */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		88E558C926041A1100CD47D9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				88E558CC26041A9300CD47D9 /* Database.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		88E558CB26041A3400CD47D9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				88E5588926017A0100CD47D9 /* AppDelegate.swift */,
+				88E5588B26017A0100CD47D9 /* SceneDelegate.swift */,
+				88E5588D26017A0100CD47D9 /* ViewController.swift */,
+				88E558D426041D1200CD47D9 /* DailymemoViewController.swift */,
+				88E558DC26041D3E00CD47D9 /* CollectionViewController.swift */,
+				88E558E126041D8000CD47D9 /* ReportViewController.swift */,
+				88856D44260C226000204FD9 /* ReportTableViewCell.swift */,
+				883E5FDF26128C41003ADA0B /* PopoverViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A36E040B578731822FD68866 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9F463CC3D4246431A003D64 /* Pods_SwiftUIImageCreator.framework */,
+				F89A005F2B1660DB506E50CE /* Pods_SwiftUIImageCreator_SwiftUIImageCreatorUITests.framework */,
+				F4B1A8B02045FEC0DD25569E /* Pods_SwiftUIImageCreatorTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 88E558B026017A0600CD47D9 /* Build configuration list for PBXNativeTarget "SwiftUIImageCreator" */;
 			buildPhases = (
+				599EAAFCB94D1DA27D516A1C /* [CP] Check Pods Manifest.lock */,
 				88E5588226017A0100CD47D9 /* Sources */,
 				88E5588326017A0100CD47D9 /* Frameworks */,
 				88E5588426017A0100CD47D9 /* Resources */,
+				167FB39C0E27E98454E9AE93 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +236,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 88E558B326017A0600CD47D9 /* Build configuration list for PBXNativeTarget "SwiftUIImageCreatorTests" */;
 			buildPhases = (
+				CCA00792A67F7F106A630AD0 /* [CP] Check Pods Manifest.lock */,
 				88E5589826017A0600CD47D9 /* Sources */,
 				88E5589926017A0600CD47D9 /* Frameworks */,
 				88E5589A26017A0600CD47D9 /* Resources */,
@@ -170,9 +255,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 88E558B626017A0600CD47D9 /* Build configuration list for PBXNativeTarget "SwiftUIImageCreatorUITests" */;
 			buildPhases = (
+				0904CE56CBAA2B6F85BA3998 /* [CP] Check Pods Manifest.lock */,
 				88E558A326017A0600CD47D9 /* Sources */,
 				88E558A426017A0600CD47D9 /* Frameworks */,
 				88E558A526017A0600CD47D9 /* Resources */,
+				BF802F2633209FF436959500 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,14 +340,123 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0904CE56CBAA2B6F85BA3998 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftUIImageCreator-SwiftUIImageCreatorUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		167FB39C0E27E98454E9AE93 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUIImageCreator/Pods-SwiftUIImageCreator-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUIImageCreator/Pods-SwiftUIImageCreator-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftUIImageCreator/Pods-SwiftUIImageCreator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		599EAAFCB94D1DA27D516A1C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftUIImageCreator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF802F2633209FF436959500 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUIImageCreator-SwiftUIImageCreatorUITests/Pods-SwiftUIImageCreator-SwiftUIImageCreatorUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUIImageCreator-SwiftUIImageCreatorUITests/Pods-SwiftUIImageCreator-SwiftUIImageCreatorUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftUIImageCreator-SwiftUIImageCreatorUITests/Pods-SwiftUIImageCreator-SwiftUIImageCreatorUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCA00792A67F7F106A630AD0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftUIImageCreatorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		88E5588226017A0100CD47D9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88E558DD26041D3E00CD47D9 /* CollectionViewController.swift in Sources */,
 				88E5588E26017A0100CD47D9 /* ViewController.swift in Sources */,
+				88E558D526041D1200CD47D9 /* DailymemoViewController.swift in Sources */,
+				88856D45260C226000204FD9 /* ReportTableViewCell.swift in Sources */,
 				88E5588A26017A0100CD47D9 /* AppDelegate.swift in Sources */,
+				88E558CD26041A9300CD47D9 /* Database.swift in Sources */,
 				88E5588C26017A0100CD47D9 /* SceneDelegate.swift in Sources */,
+				883E5FE026128C41003ADA0B /* PopoverViewController.swift in Sources */,
+				88E558E226041D8000CD47D9 /* ReportViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +629,7 @@
 		};
 		88E558B126017A0600CD47D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3E85B32B4D17F2BEEE55E48 /* Pods-SwiftUIImageCreator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +649,7 @@
 		};
 		88E558B226017A0600CD47D9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 301FE5B6D06A983BBE5B4DD9 /* Pods-SwiftUIImageCreator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +669,7 @@
 		};
 		88E558B426017A0600CD47D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD4F3FCF413B6D3A635EFD8B /* Pods-SwiftUIImageCreatorTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +692,7 @@
 		};
 		88E558B526017A0600CD47D9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D4AAE09E1F535A281B881D0 /* Pods-SwiftUIImageCreatorTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +715,7 @@
 		};
 		88E558B726017A0600CD47D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E490CEBEC0F4E8E002F99C29 /* Pods-SwiftUIImageCreator-SwiftUIImageCreatorUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +736,7 @@
 		};
 		88E558B826017A0600CD47D9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23FF7F7F2350CF0C16A32136 /* Pods-SwiftUIImageCreator-SwiftUIImageCreatorUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
